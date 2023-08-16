@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.font-bold {
+    font-weight: bold;
+    }
+    .inicial-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .inicial-container a {
+      align-self: flex-start; /* Esto coloca la etiqueta 'a' en la esquina izquierda */
+      border: 2px solid black;
+      padding: 8px;
+      margin: 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+    }
+
+    .LM{
+        font-size: 50pt;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100vh;
+      width: 100vw;
+      margin-bottom: 10px;
+    }
+    
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; 
+      width: 40%;
+    }
+    .image-wrapper {
+    position: relative;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    box-shadow: 3px 3px 15px gray;
+  }
+  .box-container {
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+  }
+
+  .tittle-container{
+    width: 100%;
+  }
+  .video-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .btnAntSig{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .Ant-container {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .Sig-container {
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .options-container{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* height: 50%; */
+  }
+
+  .option-yes {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .btnOp {
+    width: 80%;
+    margin-bottom: 6%;
+  }
+
+  .option-no {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .fot-container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .inv_t1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    color: #EF7DAB;
+    font-size: 16pt;
+    line-height: 1.3;
+  }
+
+  .inv_t2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 39%;
+    left: 6%;
+    font-size: 12pt;
+  }
+
+  .inv_t3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 69%;
+    left: 12%;
+    font-size: 12pt;
+  }
+
+  .inv_t4{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: absolute;
+    top: 68%;
+    left: 22%;
+    font-size: 14pt;
+    line-height: 1;
+  }
+
+  .inv_t5{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-size: 14pt;
+    line-height: 1;
+  }
+
+  .inv-f1{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+
+    width: 55%;
+  }
+
+  .img{
+     width: 100%;
+     height: 100% 
+  }
+
+  .inv-f2{
+    position: absolute;
+    bottom: 0%; 
+    left: 0%;
+    width: 55%;
+  }
+
+  .inv-f3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 18%;
+  }
+  .inv-f4{
+    position: absolute;
+    top: 58%; 
+    left: 24%;
+    width: 50%;
+  }
+ 
+  .timer-container {
+  width: 100%;
+  text-align: center;
+}
+.aciertosErrores {
+  width: 100%;
+  font-weight: bold;
+}
+.btnVerificar{
+    width: 100%;
+}
+.txt-Ai{
+    margin-top: 10px;
+}
+  #timer {
+    font-weight: bold;
+    font-size: 16pt;
+    
+  }
+    
+    .box {
+      position: relative;
+      font-family: "Comic Sans MS", cursive;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+      background-color: white;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+      font-weight: bold;
+      border: 2px solid black;
+      width: 50%;
+      height: 38px;
+      max-width: 100%;
+      max-height: 100%;
+      font-size: 14px;
+      text-align: center;
+    }
+    .box.selected {
+      background-color: blue;
+      color: white;
+    }
+    .drop-zone {
+      
+      position: absolute;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      justify-content: center;
+      text-align: center;
+      padding: 6px;
+      font-family: "Comic Sans MS", cursive;
+      border: 2px dashed gray;
+      min-width: 65px;
+      min-height: 38px;
+    }
+    .drop-zone.initial {
+      background-color: white !important;
+    }
+    .drop-zone.has-content {
+      background-color: rgb(224, 227, 224);
+    }
+    .drop-zone.correct {
+      background-color: rgb(1, 163, 1);
+      color: white;
+    }
+    .drop-zone.incorrect {
+      background-color: red;
+      color: white;
+    }

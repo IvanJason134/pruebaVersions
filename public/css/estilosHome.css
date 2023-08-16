@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #F7FCFF;
+}
+
+h1{
+    color: rgb(0, 152, 223);
+    text-shadow: 1px 1px 10px rgb(150, 150, 150);
+}
+
+.et-a a{
+    background-color: rgb(0, 152, 223);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px black;
+}
+
+.et-a a:hover{
+    background-color: rgb(32, 103, 255);
+}
+
+.et-a a:active{
+    background-color: rgb(0, 81, 255);
+}
